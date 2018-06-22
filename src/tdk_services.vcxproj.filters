@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ABI">
+      <UniqueIdentifier>{c9154e92-3396-46ff-9c7f-a39c78d46f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ABI\exception">
+      <UniqueIdentifier>{fb4d1c0f-5f7e-4cc4-8173-23e628324a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ABI\base">
+      <UniqueIdentifier>{918fd961-a01e-4ee3-91a3-1103f848bdda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ABI\base\file">
+      <UniqueIdentifier>{69beb70b-a823-4f47-b9fa-9c781664aa00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tdk_services.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ABI\exception\exception_dump.h">
+      <Filter>ABI\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ABI\base\file\path.h">
+      <Filter>ABI\base\file</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tdk_services.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ABI\exception\exception_dump.cc">
+      <Filter>ABI\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ABI\base\file\path.cc">
+      <Filter>ABI\base\file</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
